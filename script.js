@@ -35,4 +35,4 @@ function updateCount(){
     let newCount = document.querySelector ("#count");
 
     newCount.textContent = 'Compteur('+ tasksContainer.children.length+')';
-}``
+}
