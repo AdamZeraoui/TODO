@@ -1,0 +1,22 @@
+
+h1{
+    padding-bottom: 15px;
+}
+
+#btn{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#todoCards{
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 10px;
+}
+
+.delBtn{
+    position: relative;
+    left : -20px;
+    top : -5px;
+}
+
