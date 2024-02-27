@@ -5,6 +5,7 @@ let count = 1;
 const delBtn = document.querySelector('.delBtn');
 delBtn.addEventListener('click',function(){
     deleteTask(taskCard);
+    updateCount()
 });
 const taskCard = document.querySelector(".todoCard");
 const tasksContainer = document.querySelector("#todoCards");
